@@ -152,6 +152,7 @@ public class VarastoTest {
 
     @Test
     public void testOtaMiinus(){
+        System.out.println("otaMiinus");
         double maara = -1.0;
         Varasto instance = new Varasto(8,2);
         double expResult = 0.0;
@@ -161,6 +162,7 @@ public class VarastoTest {
     
     @Test
     public void testOtaLiikaa(){
+        System.out.println("otaLiikaa");
         double maara = 7.0;
         Varasto instance = new Varasto(8,2);
         double expResult = 2.0;  
@@ -171,6 +173,7 @@ public class VarastoTest {
     
     @Test
     public void testLisaaMiinus(){
+        System.out.println("lisääMiinus");
         double maara = -1.0;
         Varasto instance = new Varasto(8,2);
         double expResult = 2.0;
@@ -179,6 +182,7 @@ public class VarastoTest {
     }
     @Test
     public void testLisaaLiikaa(){
+        System.out.println("lisääLiikaa");
         double maara = 7.0;
         Varasto instance = new Varasto(8,2);
         double expResult = 8.0;
