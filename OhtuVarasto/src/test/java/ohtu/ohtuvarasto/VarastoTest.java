@@ -163,7 +163,7 @@ public class VarastoTest {
     public void testOtaLiikaa(){
         double maara = 7.0;
         Varasto instance = new Varasto(8,2);
-        double expResult = 0.0;  
+        double expResult = 2.0;  
         double result = instance.otaVarastosta(maara);
         assertEquals(expResult, result, 0.0);
     }
