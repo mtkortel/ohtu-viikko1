@@ -154,7 +154,7 @@ public class VarastoTest {
     public void testOtaMiinus(){
         double maara = -1.0;
         Varasto instance = new Varasto(8,2);
-        double expResult = 0.0;
+        double expResult = 1.0;
         double result = instance.otaVarastosta(maara);
         assertEquals(expResult, result, 0.0);
     }
